@@ -7,7 +7,7 @@ import math
 import helper_train_mean as helper
 
 #import posenet
-import posenetLSTMDropout as posenet
+import posenetLSTMDropoutTest as posenet
 #import posenet_dropout as posenet
 #import posenet_dropout_regu as posenet
 
