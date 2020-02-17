@@ -9,9 +9,13 @@ The training and the test data can be found in [this](https://melbourne.figshare
 The initial weight file (GoogleNet V1 trained on the Places dataset) and the fine-tuned model weights can be found [here](https://melbourne.figshare.com/articles/GoogleNet_weights_trained_on_the_Places_dataset_for_Keras_/10959350). The following are the details of the fine-tuned weight files:
 
 SynCar - Weights of model fine-tuned on Synthetic Cartoonish images.
+
 SynPhoReal - Weights of model fine-tuned on Synthetic photo-realistic images.
+
 SynPhoRealTex - Weights of model fine-tuned on Synthetic photo-realistic textured images.
+
 GradmagSynCar - Weights of model fine-tuned on synthetic gradmag of SynCar images.
+
 EdgeRender - Weights of model fine-tuned on Synthetic edge render images.
 
 Other details in the name of the weight files describes the parameters, such as window length, learning rate, batch, ...., etc.
