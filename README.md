@@ -3,6 +3,8 @@ This is an implementation of Recurrent BIM-PoseNet for camera pose regression re
 
 The training and the test data can be found in [this](https://melbourne.figshare.com/articles/UnimelbCorridorSynthetic_zip/10930457) repository. 
 
+Compatibility: Tensorflow 1.9.0, Cudatoolkit=9.0, Keras 1.2.2, Python 2.7
+
 ## Dataset preview
 [![Watch the video](https://melbourne.figshare.com/ndownloader/files/19441991/preview/19441991/preview.jpg)](https://melbourne.figshare.com/articles/UnimelbCorridorSynthetic_zip/10930457)
 
@@ -17,6 +19,7 @@ The initial weight file (GoogleNet V1 trained on the Places dataset) and the fin
 
 Other details in the name of the weight files describes the parameters, such as window length, learning rate, batch, ...., etc.
 
-If you are using the dataset or any part of the code, please cite our works: 
+If you are using the dataset or any part of the code, please cite our works:
+- Acharya, D., 2020. Visual indoor localisation using a 3D building model (Doctoral thesis, The University of Melbourne, Melbourne, Australia). Retrieved from (http://hdl.handle.net/11343/239180)
 - Acharya, D., Khoshelham, K., and Winter, S., 2019. BIM-PoseNet: Indoor camera localisation using a 3D indoor model and deep learning from synthetic images. ISPRS Journal of Photogrammetry and Remote Sensing. 150: 245-258.
 - Acharya, D., Singha Roy, S., Khoshelham, K. and Winter, S. 2019. Modelling uncertainty of single image indoor localisation using a 3D model and deep learning. In ISPRS Annals of Photogrammetry, Remote Sensing & Spatial Information Sciences, IV-2/W5, pages 247-254.
